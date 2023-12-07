@@ -15,6 +15,7 @@ module.exports = {
         roboto:["Roboto", "sans-serif"]
       },
       fontSize:{
+          '14':'14px',
           '16':'16px',
           '18':'18px',
           '20':'20px',
@@ -29,5 +30,7 @@ module.exports = {
       'lg': "1024px",
       'xl': "1280px",
     },
+    
   },
+  plugins: [require("daisyui")],
 };

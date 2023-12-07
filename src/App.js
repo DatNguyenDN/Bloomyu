@@ -24,8 +24,8 @@ function App() {
         ${darkMode ? "dark" : ""}`}>
          <BrowserRouter>
             <Navbar/>
-            <PageContent/>
-            <Footer/>
+            <PageContent className='flex-1'/>
+            <Footer className='fixed w-full'/>
          </BrowserRouter>
         </div>
 
